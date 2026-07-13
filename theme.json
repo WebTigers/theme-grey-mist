@@ -2,7 +2,7 @@
   "key": "grey-mist",
   "type": "theme",
   "name": "Grey Mist",
-  "version": "1.0.0",
+  "version": "0.1.0-beta",
   "vendor": "WebTigers",
   "license": "MIT",
   "engine": "Bootstrap 5",
