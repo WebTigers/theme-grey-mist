@@ -6,14 +6,14 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title><?= $this->escape($this->title ?: "Grey Mist") ?></title>
-        <link rel="icon" type="image/x-icon" href="/_greymist/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="<?= $this->asset('/_greymist/favicon.ico') ?>" />
         <!-- Font Awesome icons (free version)-->
-        <link href="/_greymist/vendor/fontawesome/css/all.css" rel="stylesheet" />
+        <link href="<?= $this->asset('/_greymist/vendor/fontawesome/css/all.css') ?>" rel="stylesheet" />
         <!-- Google fonts-->
-        <link href="/_greymist/vendor/fonts/fonts.css" rel="stylesheet" />
+        <link href="<?= $this->asset('/_greymist/vendor/fonts/fonts.css') ?>" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="/_greymist/css/bootstrap.css" rel="stylesheet" />
-        <link href="/_greymist/css/grey-mist.css" rel="stylesheet" />
+        <link href="<?= $this->asset('/_greymist/css/bootstrap.css') ?>" rel="stylesheet" />
+        <link href="<?= $this->asset('/_greymist/css/grey-mist.css') ?>" rel="stylesheet" />
     <?= $this->pageHead ?? "" ?>
 
     </head>
@@ -39,9 +39,9 @@
         <?= $this->layout()->content ?>
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; WebTigers 2026</div></footer>
         <!-- Bootstrap core JS-->
-        <script src="/_greymist/js/bootstrap.bundle.js"></script>
+        <script src="<?= $this->asset('/_greymist/js/bootstrap.bundle.js') ?>"></script>
         <!-- Core theme JS-->
-        <script src="/_greymist/js/scripts.js"></script>
+        <script src="<?= $this->asset('/_greymist/js/scripts.js') ?>"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at #
