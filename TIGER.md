@@ -7,7 +7,7 @@ Grey Mist is Tiger's reference theme: proof that a theme installs, activates, an
 the Module Manager with nothing but a config flip and an asset symlink. It's also a clean starting
 point for your own site — fork it, restyle it, ship it.
 
-![Grey Mist](https://raw.githubusercontent.com/WebTigers/theme-grey-mist/v0.1.0-beta/assets/img/bg-masthead.jpg)
+![Grey Mist](https://raw.githubusercontent.com/WebTigers/theme-grey-mist/v0.1.1-beta/media/hero.jpg)
 
 ## What you get
 
