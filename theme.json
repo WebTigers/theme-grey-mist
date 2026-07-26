@@ -4,7 +4,7 @@
   "name": "Grey Mist",
   "version": "0.7.0-beta",
   "vendor": "WebTigers",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "engine": "Bootstrap 5",
   "assetBase": "/_greymist",
   "canvasCss": [
@@ -13,7 +13,7 @@
     "/_greymist/css/bootstrap.css",
     "/_greymist/css/grey-mist.css"
   ],
-  "description": "A free, MIT-licensed one-page theme for Tiger — self-contained, zero external dependencies. Adapted from Start Bootstrap's Grayscale.",
+  "description": "A free, one-page theme for Tiger — self-contained, zero external dependencies.",
   "layout": "layouts/scripts/layout.phtml — chrome (nav + footer) + per-page slots",
   "source": "source/ — the full page, asset pointers repointed to the module's own assets",
   "content": "content/ — served page bodies (+ tiger:page hint); index.phtml is the home",
